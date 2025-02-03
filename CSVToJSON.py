@@ -19,7 +19,7 @@ class CSVReaderApp:
         self.browse_button = tk.Button(self.frame, text="Browse", command=self.browse_csv_file)
         self.browse_button.pack(side=tk.LEFT, padx=(5, 10))
 
-        self.read_button = tk.Button(self.frame, text="Read CSV", command=self.read_csv)
+        self.read_button = tk.Button(self.frame, text="Convert to JSON", command=self.read_csv)
         self.read_button.pack(side=tk.TOP, padx=(5, 10))
 
     def browse_csv_file(self):
